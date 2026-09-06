@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Pytyvõ Motion — Rehabilitación Robótica de la Mano</title>
+  <meta name="description"
+    content="Pytyvõ Motion: Sistema robótico modular y configurable para la rehabilitación asistida de la mano. Desarrollado en Ciudad del Este, Paraguay.">
+
+  <!-- Google Fonts: Inter & Space Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="apple-brutalism">
+
+  <!-- ======================== NAVBAR (STICKY BRUTALIST PILL) ======================== -->
+  <header class="ab-navbar-outer">
+    <div class="ab-navbar-pill" id="navPill">
+      <a href="#hero" class="ab-brand-group" aria-label="Inicio Pytyvõ Motion">
+        <img src="logo.png" alt="Pytyvõ Motion Logo" class="ab-logo-img">
+        <span class="ab-brand-text">PYTYV<span class="text-green-brand">Õ</span> MOTION</span>
+      </a>
+
+      <nav>
+        <ul class="ab-nav-list" id="abNavList">
+          <li><a href="#contexto" class="ab-nav-link">Contexto</a></li>
+          <li><a href="#ingenieria" class="ab-nav-link">Ingeniería</a></li>
+          <li><a href="#simulador" class="ab-nav-link">Modelo 3D</a></li>
+          <li><a href="#bom" class="ab-nav-link">Costos & BOM</a></li>
+          <li><a href="#steam" class="ab-nav-link">STEAM</a></li>
+          <li><a href="#galeria" class="ab-nav-link">Prototipo</a></li>
+          <li><a href="#equipo" class="ab-nav-link">Equipo</a></li>
+        </ul>
+      </nav>
+
+      <div style="display: flex; align-items: center; gap: 0.75rem;">
+        <a href="https://www.instagram.com/pytyvomotion.py/" target="_blank" rel="noopener noreferrer"
+          class="btn-ig-nav" aria-label="Instagram @pytyvomotion.py">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#equipo" class="btn-nav-action">
+          <span>Equipo</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <button type="button" class="ab-hamburger-btn" id="abHamburger" aria-label="Abrir menú">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ======================== HERO SECTION (MASSIVE BRUTALIST HARDWARE LAUNCH) ======================== -->
+    <section class="hero-ab-section" id="hero">
+      <div class="ab-container">
+
+        <!-- Hero Statement Row -->
+        <div class="hero-pill-row">
+          <span class="ab-pill-tag green"><i class="fa-solid fa-location-dot"></i> Ciudad del Este, Paraguay</span>
+          <span class="ab-pill-tag yellow"><i class="fa-solid fa-bolt"></i> Solve For Tomorrow</span>
+          <span class="ab-pill-tag cyan"><i class="fa-solid fa-graduation-cap"></i> Enfoque STEAM</span>
+        </div>
+
+        <h1 class="hero-giant-h1">
+          PYTY<span class="text-green-brand">VÕ</span> MOTION
+        </h1>
+
+        <div class="hero-subtitle-box">
+          <span class="green-mark">Rehabilitación robótica de la mano</span>, accesible y humana.
+        </div>
+
+        <p class="hero-lead-paragraph">
+          Un sistema mecatrónico modular que utiliza tendones anatómicos flexibles para acompañar la recuperación motriz
+          tras un <strong>ACV o traumatismo</strong>. Diseñado y construido en Ciudad del Este por 5 estudiantes de
+          Informática para que la terapia no se detenga.
+        </p>
+
+        <div class="hero-cta-buttons">
+          <a href="#simulador" class="btn-brutalist-primary">
+            <i class="fa-solid fa-cube"></i> Explorar Modelo 3D
+          </a>
+          <a href="#ingenieria" class="btn-brutalist-secondary">
+            <i class="fa-solid fa-microchip"></i> Ver Ingeniería & Tendones
+          </a>
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- ======================== SECCIÓN 2: CONTEXTO SOCIAL & IMPACTO REGIONAL ======================== -->
+    <section class="section-spacing" id="contexto">
+      <div class="ab-container">
+
+        <div class="ab-section-heading-wrap text-center">
+          <span class="bento-kicker-pill"><i class="fa-solid fa-heart-pulse"></i> El Desafío Humano</span>
+          <h2 class="ab-section-title-giant">¿Por qué se detiene la rehabilitación?</h2>
+          <p class="ab-section-lead-text">
+            Tras un Accidente Cerebrovascular (ACV) o traumatismo, la neuroplasticidad cerebral exige repetición
+            constante. Sin embargo, en el mundo real, miles de familias enfrentan barreras insuperables.
+          </p>
+        </div>
+
+        <div class="social-bento-grid">
+
+          <!-- Medical & Functional Recovery Challenge Card -->
+          <div class="bento-card-ab">
+            <span class="ab-pill-tag green"><i class="fa-solid fa-hand-holding-medical"></i> REHABILITACIÓN
+              MOTRIZ</span>
+            <h3 class="bento-card-title-ab" style="margin-top: 1rem;">El Desafío de la Recuperación Funcional</h3>
+            <p class="bento-card-desc-ab">
+              Tras sufrir un ACV o traumatismo severo, la neuroplasticidad cerebral requiere miles de repeticiones
+              continuas. En Alto Paraná, la distancia a los centros médicos, los costos de traslado y la dificultad de
+              los familiares para acompañar a diario fuerzan la interrupción prematura de la terapia.
+            </p>
+
+            <div class="case-quote-banner">
+              "El tiempo que se pierde en el hogar sin ejercitar los dedos provoca rigidez articular y pérdida
+              irreversible de la autonomía cotidiana."
+            </div>
+
+            <div class="daily-chips-row-ab">
+              <span class="daily-chip-ab">🥄 Sostener una cuchara</span>
+              <span class="daily-chip-ab">👕 Abotonarse una camisa</span>
+              <span class="daily-chip-ab">🥛 Sujetar un vaso</span>
+            </div>
+          </div>
+
+          <!-- Official Census INE Card -->
+          <div class="ine-census-bento-card">
+            <div>
+              <span class="ab-pill-tag cyan"><i class="fa-solid fa-chart-pie"></i> DATOS CENSO INE 2022</span>
+              <div class="ine-giant-number">+31.541</div>
+              <h4 style="font-size: 1.45rem; font-weight: 900;">Personas con Discapacidad en Alto Paraná</h4>
+              <p style="color: #065F46; font-weight: 700; margin-top: 0.75rem; line-height: 1.6;">
+                Aproximadamente el <strong>5,5% de la población adulta</strong> departamental presenta algún tipo de
+                limitación motriz. Pytyvõ Motion nace en Ciudad del Este como respuesta tecnológica local, accesible y
+                reproducible.
+              </p>
+            </div>
+
+            <div style="margin-top: 2rem;">
+              <span class="daily-chip-ab" style="background: #FFFFFF;">Herramienta médica de apoyo domiciliario</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 3 Barriers Row -->
+        <div class="barriers-bento-trio">
+
+          <div class="barrier-bento-tile">
+            <div class="barrier-badge-num"><i class="fa-solid fa-coins"></i></div>
+            <h4>1. Barrera Económica</h4>
+            <p>Los dispositivos robóticos importados superan los Gs. 3.800.000, un costo prohibitivo para la gran
+              mayoría de los hogares de la región.</p>
+          </div>
+
+          <div class="barrier-bento-tile">
+            <div class="barrier-badge-num"><i class="fa-solid fa-map-location-dot"></i></div>
+            <h4>2. Distancia Geográfica</h4>
+            <p>Los centros de fisioterapia especializados están concentrados en cabeceras urbanas, dificultando
+              traslados diarios continuos.</p>
+          </div>
+
+          <div class="barrier-bento-tile">
+            <div class="barrier-badge-num"><i class="fa-solid fa-people-arrows"></i></div>
+            <h4>3. Dependencia Familiar</h4>
+            <p>El paciente depende de acompañantes para su movilidad, generando ausentismo laboral y sobrecarga física
+              en los cuidadores.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================== SECCIÓN 3: INGENIERÍA & TENDONES ======================== -->
+    <section class="section-spacing" id="ingenieria">
+      <div class="ab-container">
+
+        <div class="ab-section-heading-wrap text-center">
+          <span class="bento-kicker-pill"><i class="fa-solid fa-microchip"></i> Evolución Mecatrónica</span>
+          <h2 class="ab-section-title-giant">De Eslabones Rígidos a Tendones Flexibles</h2>
+          <p class="ab-section-lead-text">
+            El salto cualitativo entre el primer prototipo MVP y el <strong>sistema mecatrónico actual</strong> redefine
+            la seguridad, el confort anatómico y la cinemática articular de la mano.
+          </p>
+        </div>
+
+        <div class="comp-bento-layout">
+
+          <!-- Old MVP -->
+          <div class="comp-bento-block old">
+            <span class="ab-pill-tag" style="margin-bottom: 0.75rem;">PROTOTIPO INICIAL (MVP)</span>
+            <h3 style="font-size: 1.75rem; font-weight: 900; margin-bottom: 0.5rem;">Estructura Rígida</h3>
+            <p style="color: var(--ink-muted); font-weight: 600;">Mecanismo con varillas y eslabones de plástico duro.
+            </p>
+
+            <ul class="comp-points-list-ab">
+              <li class="comp-point-item-ab">
+                <div class="point-icon-dot bad"><i class="fa-solid fa-xmark"></i></div>
+                <div>
+                  <strong>Trayectoria Lineal Forzada</strong>
+                  <span>No se adapta al arco natural curvo que describe cada falange al flexionarse.</span>
+                </div>
+              </li>
+              <li class="comp-point-item-ab">
+                <div class="point-icon-dot bad"><i class="fa-solid fa-xmark"></i></div>
+                <div>
+                  <strong>Peso Concentrado en la Mano</strong>
+                  <span>Genera fatiga rápida en la muñeca del paciente por sobrepeso distal.</span>
+                </div>
+              </li>
+              <li class="comp-point-item-ab">
+                <div class="point-icon-dot bad"><i class="fa-solid fa-xmark"></i></div>
+                <div>
+                  <strong>Movimiento Grupal Rígido</strong>
+                  <span>Poca independencia para aislar dedos específicos como el pulgar.</span>
+                </div>
+              </li>
+            </ul>
+
+            <div class="comp-price-strip-ab">
+              <span>Costo Prototipo MVP:</span>
+              <strong style="color: var(--ink-black);">~Gs. 700.000</strong>
+            </div>
+          </div>
+
+          <!-- New Prototipo Actual -->
+          <div class="comp-bento-block new">
+            <span class="ab-pill-tag green" style="margin-bottom: 0.75rem;"><i class="fa-solid fa-star"></i> PROTOTIPO
+              ACTUAL</span>
+            <h3 style="font-size: 1.75rem; font-weight: 900; margin-bottom: 0.5rem;">Tendones Anatómicos Flexibles</h3>
+            <p style="color: #065F46; font-weight: 700;">Cables guiados inspirados en los tendones flexores humanos.</p>
+
+            <ul class="comp-points-list-ab">
+              <li class="comp-point-item-ab">
+                <div class="point-icon-dot good"><i class="fa-solid fa-check"></i></div>
+                <div>
+                  <strong>Trayectoria Curva Biomecánica</strong>
+                  <span>Los cables siguen el movimiento natural de cierre sin forzar las articulaciones.</span>
+                </div>
+              </li>
+              <li class="comp-point-item-ab">
+                <div class="point-icon-dot good"><i class="fa-solid fa-check"></i></div>
+                <div>
+                  <strong>Manga de Antebrazo Ergonómica</strong>
+                  <span>El peso de los motores se redistribuye en el antebrazo, dejando la mano libre y liviana.</span>
+                </div>
+              </li>
+              <li class="comp-point-item-ab">
+                <div class="point-icon-dot good"><i class="fa-solid fa-check"></i></div>
+                <div>
+                  <strong>5 Servos Individuales Configurados</strong>
+                  <span>4 servos estándar para dedos trifalángicos + 1 servo de mayor torque para oposición del
+                    pulgar.</span>
+                </div>
+              </li>
+            </ul>
+
+            <div class="comp-price-strip-ab">
+              <span>Costo Proyectado Actual:</span>
+              <strong style="color: var(--brand-green);">~Gs. 1.500.000</strong>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 3 Features -->
+        <div class="eng-pillars-grid-ab">
+          <div class="eng-pillar-card-ab">
+            <div class="pillar-icon-giant"><i class="fa-solid fa-bezier-curve"></i></div>
+            <h4>Cinemática Natural</h4>
+            <p>Los cables tensores (liñada de alta resistencia) traccionan anillos anatómicos 3D respetando los arcos
+              fisiológicos de 0° a 90°.</p>
+          </div>
+
+          <div class="eng-pillar-card-ab">
+            <div class="pillar-icon-giant"><i class="fa-solid fa-cube"></i></div>
+            <h4>Actuación Modular</h4>
+            <p>Cada dedo es un subsistema independiente. Si un módulo mecánico sufre desgaste, se reemplaza la pieza en
+              3D en minutos.</p>
+          </div>
+
+          <div class="eng-pillar-card-ab">
+            <div class="pillar-icon-giant"><i class="fa-solid fa-microchip"></i></div>
+            <h4>Control Robótico Arduino</h4>
+            <p>Microcontrolador Arduino Uno programado en C++ con modulación PWM individual, transiciones suaves y
+              detección de sobrecarga.</p>
+          </div>
+        </div>
+
+        <!-- 3D Concept & Biomimetic Honeycomb Showcase Card -->
+        <div class="showcase-3d-bento-card" style="margin-top: 2.5rem;">
+          <div class="showcase-3d-img-side"
+            onclick="openPhotoModal('WhatsApp Image 2026-09-02 at 23.17.50 (1).jpeg', 'Render conceptual de alta fidelidad: estructura alveolar Honeycomb transpirable, arnés ergonómico de hombro, módulo con pantalla LCD y mano robótica articulada.', 'Exoesqueleto Completo 3D')">
+            <div class="showcase-badge-pill"><i class="fa-solid fa-cube"></i> Render Conceptual 3D</div>
+            <img src="WhatsApp Image 2026-09-02 at 23.17.50 (1).jpeg" alt="Render Conceptual 3D Pytyvõ Motion"
+              loading="lazy">
+            <div class="showcase-zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"></i> Clic para ver en detalle
+            </div>
+          </div>
+          <div class="showcase-3d-content-side">
+            <span class="ab-pill-tag green" style="width: fit-content; margin-bottom: 1rem;"><i
+                class="fa-solid fa-dna"></i> BIOMIMÉTICA & DISEÑO</span>
+            <h3
+              style="font-size: clamp(1.5rem, 3vw, 2.1rem); font-weight: 900; line-height: 1.15; margin-bottom: 1rem;">
+              Arquitectura Celular Honeycomb & Módulo de Control Integrado
+            </h3>
+            <p style="color: var(--ink-slate); font-weight: 600; line-height: 1.6; margin-bottom: 1.5rem;">
+              El diseño bio-inspirado del sistema optimiza la relación entre rigidez mecánica, peso ultraligero y
+              confort térmico del paciente:
+            </p>
+
+            <div class="showcase-features-list">
+              <div class="showcase-feat-item">
+                <div class="showcase-feat-icon"><i class="fa-solid fa-wind"></i></div>
+                <div>
+                  <strong>Malla Alveolar Transpirable (Honeycomb):</strong>
+                  <span>Estructura porosa en nido de abeja que reduce el consumo de filamento en un 40% y permite la
+                    ventilación continua del brazo.</span>
+                </div>
+              </div>
+
+              <div class="showcase-feat-item">
+                <div class="showcase-feat-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <div>
+                  <strong>Arnés Ergonómico de Hombro:</strong>
+                  <span>Correa de descarga superior que transfiere el peso estático a la cintura escapular, liberando la
+                    articulación de la muñeca.</span>
+                </div>
+              </div>
+
+              <div class="showcase-feat-item">
+                <div class="showcase-feat-icon"><i class="fa-solid fa-tv"></i></div>
+                <div>
+                  <strong>Módulo LCD Embebido en Antebrazo:</strong>
+                  <span>Display digital con botones físicos y barra LED indicadora para visualizar el ángulo de flexión,
+                    ciclos de terapia y calibración en tiempo real.</span>
+                </div>
+              </div>
+
+              <div class="showcase-feat-item">
+                <div class="showcase-feat-icon"><i class="fa-solid fa-hand"></i></div>
+                <div>
+                  <strong>Mano Articulada de Tendones Flexores:</strong>
+                  <span>Segmentos de falanges independientes guiados por cables de baja fricción, emulando la
+                    biomecánica de la mano humana.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================== SECCIÓN 4: 3D HAND LAB & VISOR INTERACTIVO ======================== -->
+    <section class="section-spacing" id="simulador">
+      <div class="ab-container">
+
+        <div class="ab-section-heading-wrap text-center">
+          <span class="bento-kicker-pill"><i class="fa-solid fa-cube"></i> Hand Lab 3D — WebGL</span>
+          <h2 class="ab-section-title-giant">Visor 3D Interactivo</h2>
+          <p class="ab-section-lead-text">
+            Interactúa en 360° con el modelo tridimensional del exoesqueleto y examina cada detalle de su ingeniería y
+            biomecánica en tiempo real.
+          </p>
+        </div>
+
+        <div class="viewer-3d-bento-wrapper">
+
+          <!-- 3D Canvas Stage Left -->
+          <div class="viewer-3d-stage-card">
+
+            <!-- Floating Top HUD Controls -->
+            <div class="viewer-top-hud">
+              <div class="hud-tag-pill active" id="hudStatusPill">
+                <span class="hud-pulse-dot"></span>
+                <span>Órbita 360° Activa</span>
+              </div>
+
+              <div class="hud-camera-actions">
+                <button type="button" class="btn-hud-tool active" id="btnAutoRotate" onclick="toggle3DAutoRotate()"
+                  title="Activar/Desactivar Giro Automático">
+                  <i class="fa-solid fa-rotate"></i> Auto-Giro
+                </button>
+                <button type="button" class="btn-hud-tool" id="btnToggleWireframe" onclick="toggleWireframeMode()"
+                  title="Alternar Malla Wireframe / Sólido">
+                  <i class="fa-solid fa-border-none"></i> Malla
+                </button>
+                <button type="button" class="btn-hud-tool" onclick="set3DCameraPreset('front')" title="Vista Frontal">
+                  <i class="fa-solid fa-eye"></i> Frontal
+                </button>
+                <button type="button" class="btn-hud-tool" onclick="set3DCameraPreset('side')" title="Vista Lateral">
+                  <i class="fa-solid fa-arrows-left-right"></i> Lateral
+                </button>
+                <button type="button" class="btn-hud-tool" onclick="set3DCameraPreset('top')" title="Vista Superior">
+                  <i class="fa-solid fa-arrows-up-down"></i> Superior
+                </button>
+                <button type="button" class="btn-hud-tool icon-only" onclick="reset3DCamera()" title="Resetear Vista">
+                  <i class="fa-solid fa-rotate-left"></i>
+                </button>
+                <button type="button" class="btn-hud-tool" onclick="document.getElementById('fileUpload3D').click()"
+                  title="Cargar archivo 3D (.glb, .stl, .obj)">
+                  <i class="fa-solid fa-file-arrow-up"></i> Cargar 3D
+                </button>
+                <input type="file" id="fileUpload3D" accept=".glb,.gltf,.stl,.obj" style="display: none;"
+                  onchange="handleUser3DFile(event)">
+              </div>
+            </div>
+
+            <!-- Canvas Container -->
+            <div id="threejs-canvas-container" class="threejs-canvas-container">
+              <!-- Loading spinner -->
+              <div id="viewer3d-loader" class="viewer-loader-overlay">
+                <div class="viewer-spinner"></div>
+                <span>Inicializando Motor 3D WebGL...</span>
+              </div>
+            </div>
+
+            <!-- Floating Bottom HUD Badges -->
+            <div class="viewer-bottom-hud">
+              <span class="hud-info-chip"><i class="fa-solid fa-mouse"></i> Arrastra para girar • Rueda para zoom</span>
+              <span class="hud-info-chip green" id="modelLoadedName"><i class="fa-solid fa-microchip"></i> Modelo:
+                Exoesqueleto Biónico</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- ======================== SECCIÓN 6: BOM & ESPECIFICACIONES TÉCNICAS ======================== -->
+    <section class="section-spacing" id="bom">
+      <div class="ab-container">
+
+        <div class="ab-section-heading-wrap text-center">
+          <span class="bento-kicker-pill"><i class="fa-solid fa-calculator"></i> Transparencia Financiera</span>
+          <h2 class="ab-section-title-giant">Desglose de Materiales & Costos (BOM)</h2>
+          <p class="ab-section-lead-text">
+            Fabricación basada en componentes comerciales asequibles, reparabilidad modular y técnicas mixtas de
+            impresión 3D y artesanía textil.
+          </p>
+        </div>
+
+        <div class="bom-bento-layout-ab">
+
+          <!-- Table Left -->
+          <div class="bom-list-card-ab">
+            <h3 style="font-size: 1.5rem; font-weight: 900; margin-bottom: 0.5rem;">
+              Lista de Materiales Presupuestada
+            </h3>
+            <span
+              style="font-size: 0.85rem; font-weight: 700; color: var(--ink-muted); font-family: var(--font-mono);">Valores
+              reales expresados en Guaraníes (GS)</span>
+
+            <!-- Technical -->
+            <div class="bom-cat-title-ab"><i class="fa-solid fa-microchip text-green-brand"></i> Componentes Técnicos &
+              Electrónicos</div>
+
+            <div class="bom-row-item-ab">
+              <span style="font-weight: 800;">Zumbador acústico 3-24V</span>
+              <span class="bom-price-pill-ab">25.000 GS</span>
+            </div>
+            <div class="bom-row-item-ab">
+              <span style="font-weight: 800;">Servomotores chicos estándar (4 unidades)</span>
+              <span class="bom-price-pill-ab">140.000 GS (35k c/u)</span>
+            </div>
+            <div class="bom-row-item-ab">
+              <span style="font-weight: 800;">Servomotor grande de alto torque (Pulgar)</span>
+              <span class="bom-price-pill-ab">75.000 GS</span>
+            </div>
+            <div class="bom-row-item-ab">
+              <span style="font-weight: 800;">Conector batería 9V & regulador</span>
+              <span class="bom-price-pill-ab">6.000 GS</span>
+            </div>
+            <div class="bom-row-item-ab">
+              <span style="font-weight: 800;">LED rojo (Estado parada) + LED verde (Activo)</span>
+              <span class="bom-price-pill-ab">10.000 GS</span>
+            </div>
+            <div class="bom-row-item-ab">
+              <span style="font-weight: 800;">Resistencias 220 Ohm + Botón físico</span>
+              <span class="bom-price-pill-ab">11.000 GS</span>
+            </div>
+
+            <!-- Structural / Crafting -->
+            <div class="bom-cat-title-ab mt-4"><i class="fa-solid fa-screwdriver-wrench text-green-brand"></i>
+              Estructura, Textiles & Fabricación Manual</div>
+
+            <div class="bom-row-item-ab">
+              <span style="font-weight: 800;">Porcelana fría (Moldeado ergonómico de falanges)</span>
+              <span class="bom-price-pill-ab">45.000 GS</span>
+            </div>
+            <div class="bom-row-item-ab">
+              <span style="font-weight: 800;">Superciano / Adhesivos de fijación rápida</span>
+              <span class="bom-price-pill-ab">20.000 GS</span>
+            </div>
+            <div class="bom-row-item-ab">
+              <span style="font-weight: 800;">Ensamble textil (Tela negra, liñada, hilo grueso, tela brillante y
+                aguja)</span>
+              <span class="bom-price-pill-ab">35.000 GS</span>
+            </div>
+          </div>
+
+          <!-- Market Chart Right -->
+          <div class="bom-chart-card-ab">
+            <div>
+              <h3 style="font-size: 1.5rem; font-weight: 900; margin-bottom: 0.5rem;">
+                Comparativa de Mercado
+              </h3>
+              <p style="font-size: 0.95rem; font-weight: 600; color: var(--ink-muted); margin-bottom: 2rem;">
+                Impacto del desarrollo nacional frente a alternativas comerciales:
+              </p>
+
+              <div class="cost-bar-block-ab">
+                <div class="cost-bar-header-ab">
+                  <span>Prototipo Inicial (MVP)</span>
+                  <span style="font-family: var(--font-mono);">Gs. 700.000</span>
+                </div>
+                <div class="cost-track-ab">
+                  <div class="cost-fill-ab fill-mvp-ab"></div>
+                </div>
+              </div>
+
+              <div class="cost-bar-block-ab">
+                <div class="cost-bar-header-ab" style="color: var(--brand-green);">
+                  <span>⭐ Pytyvõ Motion</span>
+                  <span style="font-family: var(--font-mono); font-weight: 900;">Gs. 1.500.000</span>
+                </div>
+                <div class="cost-track-ab">
+                  <div class="cost-fill-ab fill-v2-ab"></div>
+                </div>
+              </div>
+
+              <div class="cost-bar-block-ab">
+                <div class="cost-bar-header-ab">
+                  <span>Comercial Básico Local</span>
+                  <span style="font-family: var(--font-mono);">Gs. 1.300.000</span>
+                </div>
+                <div class="cost-track-ab">
+                  <div class="cost-fill-ab fill-basic-ab"></div>
+                </div>
+              </div>
+
+              <div class="cost-bar-block-ab">
+                <div class="cost-bar-header-ab" style="color: #EF4444;">
+                  <span>Importado Avanzado</span>
+                  <span style="font-family: var(--font-mono);">Gs. 3.803.961+</span>
+                </div>
+                <div class="cost-track-ab">
+                  <div class="cost-fill-ab fill-import-ab"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="saving-box-ab">
+              <div class="saving-huge-pct-ab">60%</div>
+              <div>
+                <strong style="display: block; font-size: 1.15rem; color: #000;">Más accesible que equipos
+                  importados</strong>
+                <span style="font-size: 0.9rem; font-weight: 700; color: #065F46;">Con soporte técnico local,
+                  fabricación y repuestos inmediatos en Paraguay.</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================== SECCIÓN 7: ENFOQUE STEAM ======================== -->
+    <section class="section-spacing" id="steam">
+      <div class="ab-container">
+
+        <div class="ab-section-heading-wrap text-center">
+          <span class="bento-kicker-pill"><i class="fa-solid fa-palette"></i> Rigor Científico & Creativo</span>
+          <h2 class="ab-section-title-giant">Enfoque STEAM Integrado</h2>
+          <p class="ab-section-lead-text">
+            Pytyvõ Motion articula las cinco disciplinas fundamentales aplicadas a la ingeniería biomédica, el diseño
+            humano y la recuperación motriz.
+          </p>
+        </div>
+
+        <div class="stem-bento-grid-ab">
+
+          <div class="stem-bento-tile-ab">
+            <div class="stem-letter-giant-ab letter-s">S</div>
+            <h3>Ciencia</h3>
+            <span class="stem-field">Biomecánica & Cinesiología</span>
+            <p>Estudio de los arcos de flexo-extensión articular y estimulación de la neuroplasticidad cerebral mediante
+              repetición asistida.</p>
+          </div>
+
+          <div class="stem-bento-tile-ab">
+            <div class="stem-letter-giant-ab letter-t">T</div>
+            <h3>Tecnología</h3>
+            <span class="stem-field">Firmware & Control PWM</span>
+            <p>Control por modulación de pulsos en microcontrolador Arduino Uno, temporización suave y avisos de audio
+              en español y guaraní.</p>
+          </div>
+
+          <div class="stem-bento-tile-ab">
+            <div class="stem-letter-giant-ab letter-e">E</div>
+            <h3>Ingeniería</h3>
+            <span class="stem-field">Modelado CAD & Tendones</span>
+            <p>Diseño de exoesqueletos ergonómicos impresos en 3D, cables tensores de baja fricción y manga de
+              redistribución de peso en antebrazo.</p>
+          </div>
+
+          <div class="stem-bento-tile-ab">
+            <div class="stem-letter-giant-ab letter-a">A</div>
+            <h3>Arte & Diseño</h3>
+            <span class="stem-field">Diseño Centrado en Personas</span>
+            <p>Estética biofílica no intimidante para el paciente, ensamble textil ergonómico artesanal con identidad
+              cultural y feedback sensorial táctil.</p>
+          </div>
+
+          <div class="stem-bento-tile-ab">
+            <div class="stem-letter-giant-ab letter-m">M</div>
+            <h3>Matemáticas</h3>
+            <span class="stem-field">Cálculo Angular & Torque</span>
+            <p>Mapeo trigonométrico de señales de 0° a 90°, cálculo de momentos de torsión (kg·cm) por servo y velocidad
+              de ciclos por minuto.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================== SECCIÓN 8: GALERÍA REAL DEL PROTOTIPO ======================== -->
+    <section class="section-spacing" id="galeria">
+      <div class="ab-container">
+
+        <div class="ab-section-heading-wrap text-center">
+          <span class="bento-kicker-pill"><i class="fa-solid fa-camera"></i> Registro de I+D & Construcción</span>
+          <h2 class="ab-section-title-giant">Galería Técnica & Evidencias</h2>
+          <p class="ab-section-lead-text">
+            Explora el archivo visual completo: desde los primeros bocetos en pizarra y cuaderno de campo, hasta el
+            render 3D biomimético y el banco de actuadores en Ciudad del Este.
+          </p>
+        </div>
+
+        <!-- Filter Tabs / Pills -->
+        <div class="gallery-filter-bar-ab">
+          <button type="button" class="gallery-filter-btn active" onclick="filterGallery('all', this)">
+            <i class="fa-solid fa-layer-group"></i> Todos <span class="filter-count">10</span>
+          </button>
+          <button type="button" class="gallery-filter-btn" onclick="filterGallery('render', this)">
+            <i class="fa-solid fa-cube"></i> Render 3D & Concepto <span class="filter-count">1</span>
+          </button>
+          <button type="button" class="gallery-filter-btn" onclick="filterGallery('biomecanica', this)">
+            <i class="fa-solid fa-bone"></i> Bocetos & Biomecánica <span class="filter-count">2</span>
+          </button>
+          <button type="button" class="gallery-filter-btn" onclick="filterGallery('id', this)">
+            <i class="fa-solid fa-users-gear"></i> I+D & Equipo BTI <span class="filter-count">3</span>
+          </button>
+          <button type="button" class="gallery-filter-btn" onclick="filterGallery('taller', this)">
+            <i class="fa-solid fa-wrench"></i> Taller & Prototipado <span class="filter-count">4</span>
+          </button>
+        </div>
+
+        <!-- 10 Cards Bento Grid -->
+        <div class="gallery-bento-grid-ab" id="galleryGrid">
+
+          <!-- 1. Render 3D -->
+          <div class="gallery-bento-card-ab" data-category="render"
+            onclick="openPhotoModal('WhatsApp Image 2026-09-02 at 23.17.50 (1).jpeg', 'Render conceptual de alta fidelidad: estructura alveolar Honeycomb transpirable, arnés ergonómico de hombro, módulo con pantalla LCD y mano robótica articulada.', 'Exoesqueleto Completo 3D')">
+            <span class="gallery-card-tag-pill green"><i class="fa-solid fa-cube"></i> Render 3D</span>
+            <div class="gallery-img-container-ab">
+              <img src="WhatsApp Image 2026-09-02 at 23.17.50 (1).jpeg" alt="Render Conceptual 3D Exoesqueleto"
+                loading="lazy">
+              <div class="gallery-hover-overlay"><i class="fa-solid fa-expand"></i></div>
+            </div>
+            <div class="gallery-bento-meta-ab">
+              <strong>Exoesqueleto Completo 3D</strong>
+              <span>Malla Honeycomb, pantalla LCD en antebrazo y mano biónica</span>
+            </div>
+          </div>
+
+          <!-- 2. Foto Grupal Oficial -->
+          <div class="gallery-bento-card-ab" data-category="id"
+            onclick="openPhotoModal('foto del grupo.jpeg', 'Los 5 estudiantes del Bachillerato Técnico en Informática (BTI) del Centro Regional de Educación de Ciudad del Este (CRECE) junto a su docente mentora.', 'Equipo Pytyvõ Motion & Mentora')">
+            <span class="gallery-card-tag-pill purple"><i class="fa-solid fa-users"></i> Equipo BTI</span>
+            <div class="gallery-img-container-ab">
+              <img src="foto del grupo.jpeg" alt="Equipo Oficial Pytyvõ Motion" loading="lazy">
+              <div class="gallery-hover-overlay"><i class="fa-solid fa-expand"></i></div>
+            </div>
+            <div class="gallery-bento-meta-ab">
+              <strong>Equipo Oficial & Mentora</strong>
+              <span>5 estudiantes de Informática y docente en CRECE / BTI</span>
+            </div>
+          </div>
+
+          <!-- 3. Pizarra 1 -->
+          <div class="gallery-bento-card-ab" data-category="biomecanica"
+            onclick="openPhotoModal('WhatsApp Image 2026-09-04 at 14.46.30.jpeg', 'Esquema de grupos musculares del brazo (bíceps, tríceps, braquial, flexores), arquitectura de control Arduino con pantalla LCD y pilares Ligero/Protegido/Transpirable.', 'Pizarra 1: Anatomía Muscular y Control')">
+            <span class="gallery-card-tag-pill yellow"><i class="fa-solid fa-chalkboard"></i> Pizarra Técnica</span>
+            <div class="gallery-img-container-ab">
+              <img src="WhatsApp Image 2026-09-04 at 14.46.30.jpeg" alt="Pizarra de Anatomía Muscular y Control"
+                loading="lazy">
+              <div class="gallery-hover-overlay"><i class="fa-solid fa-expand"></i></div>
+            </div>
+            <div class="gallery-bento-meta-ab">
+              <strong>Anatomía Muscular & Control</strong>
+              <span>Músculos del brazo, Arduino Uno y pilares de diseño</span>
+            </div>
+          </div>
+
+          <!-- 4. Pizarra 2 -->
+          <div class="gallery-bento-card-ab" data-category="biomecanica"
+            onclick="openPhotoModal('WhatsApp Image 2026-09-04 at 14.46.31.jpeg', 'Estudio óseo de falanges y carpo, diseño del mecanismo retráctil de poleas/servomotores y placas dorsales con guías de baja fricción.', 'Pizarra 2: Cinemática Ósea y Tendones')">
+            <span class="gallery-card-tag-pill yellow"><i class="fa-solid fa-bone"></i> Pizarra Técnica</span>
+            <div class="gallery-img-container-ab">
+              <img src="WhatsApp Image 2026-09-04 at 14.46.31.jpeg" alt="Pizarra de Cinemática de Dedos y Tendones"
+                loading="lazy">
+              <div class="gallery-hover-overlay"><i class="fa-solid fa-expand"></i></div>
+            </div>
+            <div class="gallery-bento-meta-ab">
+              <strong>Cinemática Ósea & Tendones</strong>
+              <span>Falanges, carpo y sistema retráctil de poleas</span>
+            </div>
+          </div>
+
+          <!-- 5. I+D Pizarra Control -->
+          <div class="gallery-bento-card-ab" data-category="id"
+            onclick="openPhotoModal('WhatsApp Image 2026-09-04 at 10.40.54.jpeg', 'Diseño del panel frontal de usuario: ubicación de la pantalla LCD para monitoreo de impulsos/grados de flexión y botones de calibración.', 'I+D: Módulo de Control y Display LCD')">
+            <span class="gallery-card-tag-pill cyan"><i class="fa-solid fa-pencil"></i> Sesión I+D</span>
+            <div class="gallery-img-container-ab">
+              <img src="WhatsApp Image 2026-09-04 at 10.40.54.jpeg" alt="Sesión de diseño de módulo de control"
+                loading="lazy">
+              <div class="gallery-hover-overlay"><i class="fa-solid fa-expand"></i></div>
+            </div>
+            <div class="gallery-bento-meta-ab">
+              <strong>I+D: Interfaz & LCD</strong>
+              <span>Esquematización del panel de usuario y botones</span>
+            </div>
+          </div>
+
+          <!-- 6. Cuaderno de Bocetos -->
+          <div class="gallery-bento-card-ab" data-category="id"
+            onclick="openPhotoModal('WhatsApp Image 2026-09-04 at 14.46.36 (1).jpeg', 'Registro gráfico en libreta de campo de las piezas articuladas de los dedos y los canales de fijación de los tendones tensores.', 'Cuaderno de Bocetos: Falanges y Guante')">
+            <span class="gallery-card-tag-pill coral"><i class="fa-solid fa-book-open"></i> Boceto de Campo</span>
+            <div class="gallery-img-container-ab">
+              <img src="WhatsApp Image 2026-09-04 at 14.46.36 (1).jpeg" alt="Bocetos en cuaderno por estudiante del BTI"
+                loading="lazy">
+              <div class="gallery-hover-overlay"><i class="fa-solid fa-expand"></i></div>
+            </div>
+            <div class="gallery-bento-meta-ab">
+              <strong>Bocetos de Campo</strong>
+              <span>Diseño a mano alzada de falanges y placas del guante</span>
+            </div>
+          </div>
+
+          <!-- 7. Taller Foto 1 -->
+          <div class="gallery-bento-card-ab" data-category="taller"
+            onclick="openPhotoModal('WhatsApp Image 2026-08-27 at 20.45.19.jpeg', 'Ensamble inicial de la estructura de falanges impresas en 3D y su articulación mediante líneas tensoras flexibles.', 'Ensamble de Falanges y Anillos')">
+            <span class="gallery-card-tag-pill green"><i class="fa-solid fa-wrench"></i> Prototipo Real</span>
+            <div class="gallery-img-container-ab">
+              <img src="WhatsApp Image 2026-08-27 at 20.45.19.jpeg" alt="Ensamble de Falanges Foto Real" loading="lazy">
+              <div class="gallery-hover-overlay"><i class="fa-solid fa-expand"></i></div>
+            </div>
+            <div class="gallery-bento-meta-ab">
+              <strong>Ensamble de Falanges</strong>
+              <span>Estructura de fijación textil y dedos con tendones</span>
+            </div>
+          </div>
+
+          <!-- 8. Taller Foto 2 -->
+          <div class="gallery-bento-card-ab" data-category="taller"
+            onclick="openPhotoModal('WhatsApp Image 2026-08-27 at 21.01.42.jpeg', 'Montaje del banco de pruebas con servomotores individuales, cableado y distribución de líneas de tracción mecánica.', 'Banco de Actuadores y Servomotores')">
+            <span class="gallery-card-tag-pill green"><i class="fa-solid fa-wrench"></i> Prototipo Real</span>
+            <div class="gallery-img-container-ab">
+              <img src="WhatsApp Image 2026-08-27 at 21.01.42.jpeg" alt="Banco de Actuadores Foto Real" loading="lazy">
+              <div class="gallery-hover-overlay"><i class="fa-solid fa-expand"></i></div>
+            </div>
+            <div class="gallery-bento-meta-ab">
+              <strong>Banco de Actuadores</strong>
+              <span>Distribución de servomotores y líneas tensoras</span>
+            </div>
+          </div>
+
+          <!-- 9. Taller Foto 3 -->
+          <div class="gallery-bento-card-ab" data-category="taller"
+            onclick="openPhotoModal('WhatsApp Image 2026-08-27 at 21.01.42 (1).jpeg', 'Detalle microscópico del enrutamiento de hilos de alta resistencia a lo largo de las guías dorsales de los dedos.', 'Guías de Tendón y Canales de Baja Fricción')">
+            <span class="gallery-card-tag-pill green"><i class="fa-solid fa-wrench"></i> Prototipo Real</span>
+            <div class="gallery-img-container-ab">
+              <img src="WhatsApp Image 2026-08-27 at 21.01.42 (1).jpeg" alt="Guías de Tendón Foto Real" loading="lazy">
+              <div class="gallery-hover-overlay"><i class="fa-solid fa-expand"></i></div>
+            </div>
+            <div class="gallery-bento-meta-ab">
+              <strong>Guías de Tendón en Dedos</strong>
+              <span>Canales de baja fricción y cables de liñada</span>
+            </div>
+          </div>
+
+          <!-- 10. Taller Foto 4 -->
+          <div class="gallery-bento-card-ab" data-category="taller"
+            onclick="openPhotoModal('WhatsApp Image 2026-08-27 at 21.02.46.jpeg', 'Pruebas de ajuste anatómico en palma y muñeca con materiales textiles y elásticos para máxima comodidad del paciente.', 'Fijaciones Ergonómicas Textiles')">
+            <span class="gallery-card-tag-pill green"><i class="fa-solid fa-wrench"></i> Prototipo Real</span>
+            <div class="gallery-img-container-ab">
+              <img src="WhatsApp Image 2026-08-27 at 21.02.46.jpeg" alt="Pruebas de Agarre Foto Real" loading="lazy">
+              <div class="gallery-hover-overlay"><i class="fa-solid fa-expand"></i></div>
+            </div>
+            <div class="gallery-bento-meta-ab">
+              <strong>Pruebas de Agarre & Calce</strong>
+              <span>Ajuste anatómico de muñeca y soporte palmar</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================== SECCIÓN 9: EL EQUIPO DE CDE ======================== -->
+    <section class="section-spacing" id="equipo">
+      <div class="ab-container">
+
+        <div class="ab-section-heading-wrap text-center">
+          <span class="bento-kicker-pill"><i class="fa-solid fa-users"></i> Talento Paraguayo</span>
+          <h2 class="ab-section-title-giant">El Equipo Detrás del Proyecto</h2>
+          <p class="ab-section-lead-text">
+            Desarrollado por <strong>5 estudiantes de Informática</strong> en Ciudad del Este, guiados por su docente
+            mentora del <strong>CRECE</strong>.
+          </p>
+        </div>
+
+        <!-- Grand Full-Width Team Official Showcase -->
+        <div class="team-grand-showcase-box">
+          <div class="team-grand-photo-container"
+            onclick="openPhotoModal('foto del grupo.jpeg', 'Los 5 estudiantes del Bachillerato Técnico en Informática (BTI) del Centro Regional de Educación de Ciudad del Este (CRECE) junto a su docente mentora.', 'Equipo Oficial Pytyvõ Motion & Mentora')">
+            <img src="foto del grupo.jpeg" alt="Fotografía Oficial del Equipo Pytyvõ Motion en CRECE" loading="lazy">
+            <div class="team-grand-photo-overlay">
+              <span class="team-grand-pill"><i class="fa-solid fa-expand"></i> Clic para ver foto oficial en alta
+                resolución</span>
+            </div>
+          </div>
+
+          <div class="team-grand-details-bar">
+            <div class="team-grand-header">
+              <div class="team-pill-row">
+                <span class="ab-pill-tag green"><i class="fa-solid fa-school"></i> CRECE — Centro Regional de Educación
+                  CDE</span>
+                <span class="ab-pill-tag yellow"><i class="fa-solid fa-trophy"></i> Solve For Tomorrow 2026</span>
+                <span class="ab-pill-tag cyan"><i class="fa-solid fa-laptop-code"></i> Bachillerato Técnico en
+                  Informática (BTI)</span>
+              </div>
+              <h3 class="team-grand-title">Innovación Biomédica Hecha por Jóvenes Paraguayos</h3>
+              <p class="team-grand-desc">
+                Somos estudiantes del <strong>Bachillerato Técnico en Informática (BTI)</strong> del <strong>Centro
+                  Regional de Educación Dr. José Gaspar Rodríguez de Francia (CRECE)</strong> en Ciudad del Este.
+                Guiados por nuestra docente mentora, creamos <strong>Pytyvõ Motion</strong> como una solución accesible,
+                humana y tecnológica para la rehabilitación motriz en Alto Paraná.
+              </p>
+            </div>
+
+            <div class="team-grand-stats-grid">
+              <div class="team-grand-stat-card">
+                <div class="stat-icon-wrap"><i class="fa-solid fa-user-graduate"></i></div>
+                <div>
+                  <strong>5 Estudiantes</strong>
+                  <span>Desarrolladores & Makers BTI</span>
+                </div>
+              </div>
+
+              <div class="team-grand-stat-card">
+                <div class="stat-icon-wrap"><i class="fa-solid fa-chalkboard-user"></i></div>
+                <div>
+                  <strong>1 Docente Mentora</strong>
+                  <span>Acompañamiento Académico CRECE</span>
+                </div>
+              </div>
+
+              <div class="team-grand-stat-card">
+                <div class="stat-icon-wrap"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <strong>100% CDE</strong>
+                  <span>Ingeniería Nacional & Impacto Regional</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-bento-grid-ab" style="margin-top: 2.5rem;">
+
+          <div class="team-bento-tile-ab">
+            <div class="team-avatar-box-ab"><i class="fa-solid fa-cube"></i></div>
+            <h4>Diseño 3D</h4>
+            <p>Modelado CAD de piezas anatómicas, ergonomía y manga de antebrazo.</p>
+          </div>
+
+          <div class="team-bento-tile-ab">
+            <div class="team-avatar-box-ab"><i class="fa-solid fa-code"></i></div>
+            <h4>Programación</h4>
+            <p>Firmware Arduino en C++, modulación PWM y rutinas terapéuticas.</p>
+          </div>
+
+          <div class="team-bento-tile-ab">
+            <div class="team-avatar-box-ab"><i class="fa-solid fa-gears"></i></div>
+            <h4>Mecánica</h4>
+            <p>Transmisión de cables tensores, poleas y acople de los servomotores.</p>
+          </div>
+
+          <div class="team-bento-tile-ab">
+            <div class="team-avatar-box-ab"><i class="fa-solid fa-notes-medical"></i></div>
+            <h4>Investigación</h4>
+            <p>Validación biomecánica y entrevistas técnicas con fisioterapeutas.</p>
+          </div>
+
+          <div class="team-bento-tile-ab">
+            <div class="team-avatar-box-ab"><i class="fa-solid fa-bullhorn"></i></div>
+            <h4>Marketing</h4>
+            <p>Documentación técnica, pitch estratégico y divulgación de impacto.</p>
+          </div>
+
+        </div>
+
+        <div class="medical-val-bento-ab">
+          <div class="val-icon-giant-ab"><i class="fa-solid fa-user-doctor"></i></div>
+          <div>
+            <h4>Validación Profesional con Fisioterapeutas</h4>
+            <p>
+              El diseño del exoesqueleto integra recomendaciones directas de profesionales de la rehabilitación:
+              <strong>redistribución del peso hacia el antebrazo</strong> mediante una manga anatómica y <strong>curvas
+                de aceleración graduales</strong> para evitar fatiga muscular prematura.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================== FOOTER (APPLE BRUTALISM) ======================== -->
+  <footer class="footer-ab">
+    <div class="ab-container">
+
+      <div class="footer-top-row-ab">
+        <div class="footer-brand-side-ab">
+          <img src="logo.png" alt="Pytyvõ Motion" class="footer-logo-ab">
+          <div>
+            <h3>PYTYV<span class="text-green-brand">Õ</span> MOTION</h3>
+            <p>Sistema robótico modular de rehabilitación de la mano — Hecho con orgullo en Ciudad del Este, Paraguay.
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-nav-col-ab">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#contexto">Contexto & Censo INE</a></li>
+            <li><a href="#ingenieria">Ingeniería & Tendones</a></li>
+            <li><a href="#simulador">Visor 3D Interactivo</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col-ab">
+          <h4>Proyecto</h4>
+          <ul>
+            <li><a href="#bom">Costos & BOM</a></li>
+            <li><a href="#steam">Enfoque STEAM</a></li>
+            <li><a href="#equipo">Equipo de Estudiantes</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row-ab">
+        <span>&copy; 2026 Pytyvõ Motion. Todos los derechos reservados.</span>
+        <a href="https://www.instagram.com/pytyvomotion.py/" target="_blank" rel="noopener noreferrer"
+          class="footer-ig-link-ab">
+          <i class="fa-brands fa-instagram"></i> @pytyvomotion.py
+        </a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div class="modal-ab" id="photoModal" onclick="closePhotoModal()">
+    <div class="modal-box-ab" onclick="event.stopPropagation()">
+      <button type="button" class="modal-close-ab" onclick="closePhotoModal()"
+        aria-label="Cerrar modal">&times;</button>
+      <button type="button" class="modal-nav-btn prev" onclick="prevPhoto(event)" aria-label="Foto anterior">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <button type="button" class="modal-nav-btn next" onclick="nextPhoto(event)" aria-label="Foto siguiente">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+      <div class="modal-img-wrap">
+        <img id="modalImg" src="" alt="Prototipo Detalle">
+      </div>
+      <div class="modal-info-panel">
+        <h4 id="modalTitle" class="modal-title-ab">Detalle del Prototipo</h4>
+        <div id="modalCaption" class="modal-caption-ab"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Botón Flotante para Subir a la Parte Más Alta -->
+  <button type="button" id="scrollTopBtn" aria-label="Volver arriba" title="Subir al inicio de la página">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Three.js & 3D Loaders -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/STLLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/OBJLoader.js"></script>
+
+  <!-- JavaScript Logic -->
+  <script src="main.js?v=2026.6"></script>
+</body>
+
+</html>
