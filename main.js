@@ -1062,9 +1062,9 @@ function toggleWireframeMode() {
   applyWire(bionicHandGroup);
 }
 
-/* Auto-load Project 3D Model (proyecto.glb / proeycto.glb) */
+/* Auto-load Project 3D Model (proyecto.glb) */
 function checkAndAutoLoadLocalModel() {
-  const possibleNames = ['proyecto.glb', 'proeycto.glb'];
+  const possibleNames = ['proyecto.glb'];
   if (typeof THREE.GLTFLoader === 'undefined') {
     const loaderEl = document.getElementById('viewer3d-loader');
     if (loaderEl) loaderEl.style.display = 'none';
