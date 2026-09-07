@@ -1,0 +1,11 @@
+# Excluir video de 201MB (supera el límite de 100MB de GitHub y no se usa en la web)
+0903.mp4
+
+# Excluir copia duplicada del modelo 3D
+proeycto.glb
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.tmp
+*.log

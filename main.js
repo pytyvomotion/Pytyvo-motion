@@ -1062,9 +1062,9 @@ function toggleWireframeMode() {
   applyWire(bionicHandGroup);
 }
 
-/* Auto-load Project 3D Model (proyecto.glb) */
+/* Auto-load Project 3D Model (proyecto-v2.glb / proyecto.glb) */
 function checkAndAutoLoadLocalModel() {
-  const possibleNames = ['proyecto.glb'];
+  const possibleNames = ['proyecto-v2.glb', 'proyecto.glb'];
   if (typeof THREE.GLTFLoader === 'undefined') {
     const loaderEl = document.getElementById('viewer3d-loader');
     if (loaderEl) loaderEl.style.display = 'none';
@@ -1072,6 +1072,11 @@ function checkAndAutoLoadLocalModel() {
   }
 
   const loader = new THREE.GLTFLoader();
+  if (typeof THREE.DRACOLoader !== 'undefined') {
+    const draco = new THREE.DRACOLoader();
+    draco.setDecoderPath('https://www.gstatic.com/draco/versioned/decoders/1.4.3/');
+    loader.setDRACOLoader(draco);
+  }
   const loaderEl = document.getElementById('viewer3d-loader');
   const badge = document.getElementById('modelLoadedName');
 
@@ -1165,6 +1170,11 @@ function handleUser3DFile(event) {
     reader.onload = function (e) {
       if (typeof THREE.GLTFLoader === 'undefined') return;
       const loader = new THREE.GLTFLoader();
+      if (typeof THREE.DRACOLoader !== 'undefined') {
+        const draco = new THREE.DRACOLoader();
+        draco.setDecoderPath('https://www.gstatic.com/draco/versioned/decoders/1.4.3/');
+        loader.setDRACOLoader(draco);
+      }
       loader.parse(e.target.result, '', function (gltf) {
         if (loaderEl) loaderEl.style.display = 'none';
 
